@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OkiDose — Delete your data</title>
+<style>
+  :root { --bg:#f6f5f2; --fg:#16181b; --muted:#5b6168; --accent:#2f6f69; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121416; --fg:#eceae6; --muted:#a3a8ad; --accent:#7fc9bf; --card:#1c1f22; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; } h2 { font-size:19px; margin:28px 0 8px; color:var(--accent); }
+  .sub { color:var(--muted); margin:0 0 20px; }
+  .card { background:var(--card); border-radius:16px; padding:16px 20px; margin:12px 0; }
+  ol, ul { padding-inline-start:22px; } li { margin:4px 0; } a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Delete your OkiDose data</h1>
+  <p class="sub">OkiDose: Pill Reminder · developer Ilia Idelman</p>
+
+  <p>OkiDose has no user accounts. Your medications, schedule, dose history, notes and photos are stored only on your phone and never reach our servers.
+  The only data that leaves the phone belongs to the optional <b>Family alert</b> feature.</p>
+
+  <h2>Option 1 — in the app (immediate)</h2>
+  <div class="card">
+    <ol>
+      <li>Open OkiDose.</li>
+      <li>Go to <b>Settings → Data and privacy</b>.</li>
+      <li>Tap <b>Delete my cloud data</b> and confirm.</li>
+    </ol>
+    This deletes everything OkiDose stored in the cloud and turns off Family alert. Data on your phone stays.
+  </div>
+
+  <h2>Option 2 — by e-mail</h2>
+  <div class="card">
+    Write to <a href="mailto:shevch@gmail.com?subject=OkiDose%20data%20deletion">shevch@gmail.com</a> with the subject “OkiDose data deletion”.
+    If you can, include the user id from <b>Settings → About</b>. We delete the data within 30 days and confirm by e-mail.
+  </div>
+
+  <h2>What is deleted</h2>
+  <ul>
+    <li>The anonymous Family alert ID and push-notification token of your phone.</li>
+    <li>The name you entered for Family alert.</li>
+    <li>Links to the family members who receive your alerts.</li>
+    <li>Any missed-dose events not yet delivered.</li>
+  </ul>
+
+  <h2>What is kept</h2>
+  <ul>
+    <li>Nothing in the cloud. Missed-dose events are deleted automatically as soon as they are delivered.</li>
+    <li>Anonymous daily counters used to limit alerts (no name, no medication) are removed with your ID.</li>
+    <li>Purchases and subscriptions are handled by Google Play; manage or cancel them in Google Play.</li>
+    <li>Data on your phone: delete it by uninstalling OkiDose or with Android Settings → Apps → OkiDose → Storage → Clear data.</li>
+  </ul>
+
+  <p class="sub">See also the <a href="privacy.html">privacy policy</a>.</p>
+</main>
+</body>
+</html>
